@@ -1,0 +1,77 @@
+---
+# Personal Details
+name: Jean-Baptiste KOPECKY
+email: jb.kopecky@gmail.com
+urls: 
+    - url: www.linkedin.com/in/jbkopecky
+      logo: "static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png"
+      name: linkedin 
+    - url: www.github.com/jbkopecky
+      logo: "raw.githubusercontent.com/ICI3D/ICI3D.github.io/master/images/GitHub-Logos/GitHub-Mark-32px.png"
+      name: github
+
+# Sections
+experience:
+    - from: 2014
+      to: Today
+      employer: FOROIL
+      url: www.foroil.com
+      job: Reservoir Engineer - Data Scientist
+      city: Paris
+      description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields."
+    - from: 2012
+      to: 2014
+      employer: Schlumberger - Drilling \& Measurement
+      url: www.slb.com
+      job: Field Engineer
+      city: Takoradi-Ghana
+      description: "As a field engineer, provided logging while drilling services to national and major oil companies, in deep water exploration rigs in Ghana, Mauritania, but also offshore Croatia, onshore Italy & Poland. Completed Schlumberger Drilling and Measurement Engineer Training in Tyumen, Siberia."
+    - from: 2012
+      to: 2012
+      employer: Schlumberger Business Consulting
+      job: business analyst intern
+      city: Paris-France
+      description: "In an international environment, developed analysis to improve Oil&Gas business operations:  Designed world “Light Tight Oil” production forecast model, Conducted world Service Quality data analysis for Oil&Gas Service Company."
+    - from: 2011
+      to: 2011
+      employer: Peking University, Guanghua
+      url: english.pku.edu.cn
+      job: Research Assistant
+      city: Beijing-China
+      description: "In a Chinese research team, developed an energy efficiency index for the Chinese cement industry, in the 12th five year government’s strategy plan perspective. Language: Chinese"
+
+education:
+    - year: 2011--2012
+      subject: Energy Economics, Strategy, Finance 
+      institute: IFP School
+      url: www.ifp-school.com
+      description: "Studied Oil&Gas business strategy, project management, finance"
+    - year: 2008--2012
+      subject: Technology Innovation
+      institute: Ecole Polytechnique
+      url: www.polytechnique.edu/en
+      description: "Mechanics, Physics, Business strategy, Econometrics"
+
+skills:
+    - skill: French
+      description: Native
+    - skill: English 
+      description: Bilingual
+    - skill: Chinese
+      description: Notions
+    - skill: Python
+      description: Django, Scipy, Panda, Matplotlib
+    - skill: R
+      description: Notions in diverse modeling frameworks, ggplot
+    - skill: Office
+      description: Advanced in Excel, Powerpoint, Latex
+    - skill: Divers
+      description: bash, git, svn, vim
+
+interests:
+    - Sailing, Triathlon
+    - Bike trekking
+
+# Settings:
+fontsize: 10pt
+---

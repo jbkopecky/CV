@@ -1,0 +1,212 @@
+%------------------------------------------------------------------------------
+%                             JB KOPECKY CV
+%                         jb.kopecky@gmail.com
+%------------------------------------------------------------------------------
+%    PREAMBULE                                                               {{{
+\documentclass[10pt]{article} % Default font size
+%------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS                              {{{
+
+\usepackage[a4paper, hmargin=25mm, vmargin=20mm, top=20mm]{geometry} % Use A4 paper and set margins
+
+\usepackage{fancyhdr} % Customize the header and footer
+
+\usepackage[hidelinks]{hyperref} % Colors for links, text and headings
+
+\usepackage{enumitem} % Can change interline spacing in itemizations.
+
+\usepackage{multicol}
+
+\setcounter{secnumdepth}{0} % Suppress section numbering
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+
+\usepackage{fourier}
+
+\renewcommand*\rmdefault{dayrom}
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{color} % Required for custom colors
+
+\definecolor{slateblue}{rgb}{0.17,0.22,0.34}
+
+\usepackage{sectsty} % Allows customization of titles
+
+\sectionfont{\color{slateblue}} % Color section titles
+
+\pagestyle{plain} % Use the custom page style through the document
+
+\pagenumbering{gobble} % Suppress page numbers
+
+\renewcommand{\headrulewidth}{0pt} % Disable the default header rule
+
+\renewcommand{\footrulewidth}{0pt} % Disable the default footer rule
+
+\setlength\parindent{0pt} % Stop paragraph indentation
+
+% Non-indenting itemize
+
+\newenvironment{itemize-noindent}
+{\vspace{-2mm}\setlength{\leftmargini}{0em}\begin{itemize}[noitemsep]}{\end{itemize}}
+
+% Text width for tabbing environments
+\newlength{\smallertextwidth}
+\setlength{\smallertextwidth}{\textwidth}
+\addtolength{\smallertextwidth}{-2cm}
+
+\newcommand{\sqbullet}{~\vrule height 1ex width .8ex depth -.2ex} % Custom square bullet point definition
+
+% }}}
+%------------------------------------------------------------------------------
+%	MAIN HEADER COMMAND                                                     {{{
+
+\renewcommand{\title}[1]{
+{\huge{ \color{slateblue}\textbf{#1} }}\\ % Header section name and color
+\rule{\textwidth}{0.3mm}\\ % Rule under the header
+}
+
+% }}}
+%------------------------------------------------------------------------------
+%	JOB COMMAND                                                             {{{
+
+\newcommand{\job}[6]{
+\begin{tabbing}
+\hspace{2cm} \= \kill
+{\color{slateblue}\textbf{#1}} \> \href{#4}{#3} \\
+{\color{slateblue}\textbf{#2}} \>\+ \textit{#5} \\
+\begin{minipage}{\smallertextwidth}
+\vspace{1mm}
+#6
+\end{minipage}
+\end{tabbing}
+\vspace{1mm}
+}
+% }}}
+%------------------------------------------------------------------------------
+%	SKILL GROUP COMMAND                                                     {{{
+
+\newcommand{\skillgroup}[2]{
+\begin{tabbing}
+\hspace{5mm} \= \kill
+\sqbullet \>\+ \textbf{#1} \\
+\begin{minipage}{\smallertextwidth}
+\vspace{1mm}
+#2
+\end{minipage}
+\end{tabbing}
+}
+% }}}
+%------------------------------------------------------------------------------
+%	INTERESTS GROUP COMMAND                                                 {{{
+
+\newcommand{\interestsgroup}[1]{
+\begin{tabbing}
+\hspace{3mm} \= \kill
+#1
+\end{tabbing}
+\vspace{-10mm}
+}
+
+\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[3pt]} % Define a custom command for individual interests
+
+% }}}
+%------------------------------------------------------------------------------
+%	TABBED BLOCK COMMAND                                                    {{{
+
+\newcommand{\tabbedblock}[1]{
+\begin{tabbing}
+\hspace{2cm} \= \hspace{4cm} \= \kill
+#1
+\end{tabbing}
+}
+% }}}
+%------------------------------------------------------------------------------
+\begin{document}
+%}}}
+%------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION                                            {{{
+%------------------------------------------------------------------------------
+
+\title{$name$} % Print the main header
+
+\vspace{-5mm}
+
+\begin{multicols}{2}
+
+$if(address)$
+$for(address)$
+$address$\\
+$endfor$
+$endif$
+
+$if(urls)$
+$for(urls)$
+\href{$urls.url$}{$urls.url$}\\
+$endfor$
+$endif$
+
+% \vspace{-10pt}  
+\columnbreak
+
+$if(phone)$
+$phone$\\
+$endif$
+$if(email)$
+\href{mailto:$email$}{$email$}\\
+$endif$
+\end{multicols}
+
+
+\vspace{-5mm}
+
+% }}}
+%------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION                                              {{{
+
+\section{Employment History}
+$for(experience)$
+\job
+{$experience.from$ -}{$experience.to$}
+{$experience.employer$}
+{$experience.url$}
+{$experience.job$}
+{$experience.description$}
+$endfor$
+
+% }}}
+%------------------------------------------------------------------------------
+%	EDUCATION SECTION                                                       {{{
+
+\section{Education}
+$for(education)$
+\tabbedblock{
+    {\color{slateblue}\bf{$education.year$}} \> $education.subject$ - \href{http://$education.url$}{$education.institute$} \\
+\>\textit{$education.description$}
+}
+$endfor$
+% }}}
+%------------------------------------------------------------------------------
+%	SKILLS SECTION                                                          {{{
+
+\section{Skills}
+$for(skills)$
+\textit{$skills.skill$} - $skills.description$\\
+$endfor$
+
+% }}}
+%------------------------------------------------------------------------------
+%	INTERESTS SECTION                                                       {{{
+
+\section{Interests}
+
+\interestsgroup{
+$for(interests)$
+\interest{$interests$}
+$endfor$
+}
+%------------------------------------------------------------------------------
+
+\end{document}
+% }}}
+%------------------------------------------------------------------------------
