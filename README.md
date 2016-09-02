@@ -24,7 +24,7 @@ Completed Schlumberger Drilling and Measurement Engineer Training in
 Tyumen, Siberia.
 
 * 2012-2012
-| **business analyst intern**, [Schlumberger Business Consulting](http://) (Paris-France)
+| **Business Analyst Intern**, [Schlumberger Business Consulting](http://) (Paris-France)
 > In an international environment, developed analysis to improve Oil&Gas
 business operations: Designed world “Light Tight Oil” production
 forecast model, Conducted world Service Quality data analysis for
