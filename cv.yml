@@ -39,6 +39,19 @@ experience:
       job: Research Assistant
       city: Beijing-China
       description: "In a Chinese research team, developed an energy efficiency index for the Chinese cement industry, in the 12th five year government’s strategy plan perspective. Language: Chinese"
+    # - from: 2010
+    #   to: 2010
+    #   employer: 长林场  (forest farm)
+    #   job: Farmer
+    #   city: Xingtai, Hebei, China
+    #   description: "Worked in Chinese State Farm for a month. Experienced complete cultural immersion." 
+    - from: 2008
+      to: 2009
+      employer: Gendarmerie Nationale
+      url: www.gendarmerie.interieur.gouv.fr
+      job: Aspirant (Officer Candidate)
+      city: Saint Marteen - French Caribeean
+      description: "The Gendarmerie Nationale is part of the French armed forces. Its main missions are National Security and Law Enforcement. Assisted the commandant in place in the French West Indies to fight crime in a social powder keg. Followed criminal investigations, human rescue operations, worked with intervention squad and politicians."
 
 education:
     - year: 2011--2012

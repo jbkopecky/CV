@@ -36,6 +36,14 @@ Oil&Gas Service Company.
 Chinese cement industry, in the 12th five year government’s strategy
 plan perspective. Language: Chinese
 
+* 2008-2009
+| **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen - French Caribeean)
+> The Gendarmerie Nationale is part of the French armed forces. Its main
+missions are National Security and Law Enforcement. Assisted the
+commandant in place in the French West Indies to fight crime in a social
+powder keg. Followed criminal investigations, human rescue operations,
+worked with intervention squad and politicians.
+
 
 Education
 ---------
