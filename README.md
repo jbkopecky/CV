@@ -47,11 +47,11 @@ worked with intervention squad and politicians.
 
 Education
 ---------
-* 2011--2012 | **Energy Economics, Strategy, Finance**,
+* 2011--2012 | **Energy Economics, Strategy, Finance - MSc**,
   [IFP School](https://www.ifp-school.com)
 > Studied Oil&Gas business strategy, project management, finance
 
-* 2008--2012 | **Technology Innovation**,
+* 2008--2012 | **Technology Innovation - Msc**,
   [Ecole Polytechnique](https://www.polytechnique.edu/en)
 > Mechanics, Physics, Business strategy, Econometrics
 
@@ -76,7 +76,6 @@ _bash, git, svn, vim_
 
 Interests
 ---------
-* Sailing, Triathlon
-* Bike trekking
+* Sailing, Triathlon, Bike trekking
 
 

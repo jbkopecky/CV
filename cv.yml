@@ -55,12 +55,12 @@ experience:
 
 education:
     - year: 2011--2012
-      subject: Energy Economics, Strategy, Finance 
+      subject: Energy Economics, Strategy, Finance - MSc
       institute: IFP School
       url: www.ifp-school.com
       description: "Studied Oil&Gas business strategy, project management, finance"
     - year: 2008--2012
-      subject: Technology Innovation
+      subject: Technology Innovation - Msc
       institute: Ecole Polytechnique
       url: www.polytechnique.edu/en
       description: "Mechanics, Physics, Business strategy, Econometrics"
@@ -82,8 +82,7 @@ skills:
       description: bash, git, svn, vim
 
 interests:
-    - Sailing, Triathlon
-    - Bike trekking
+    - Sailing, Triathlon, Bike trekking
 
 # Settings:
 fontsize: 10pt
