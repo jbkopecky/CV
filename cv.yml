@@ -39,12 +39,12 @@ experience:
       job: Research Assistant
       city: Beijing-China
       description: "In a Chinese research team, developed an energy efficiency index for the Chinese cement industry, in the 12th five year government’s strategy plan perspective. Language: Chinese"
-    # - from: 2010
-    #   to: 2010
-    #   employer: 长林场  (forest farm)
-    #   job: Farmer
-    #   city: Xingtai, Hebei, China
-    #   description: "Worked in Chinese State Farm for a month. Experienced complete cultural immersion." 
+    - from: 2010
+      to: 2010
+      employer: Chinese State Forest Farm
+      job: Farmer
+      city: Xingtai, Hebei, China
+      description: "Worked in a Chinese State Farm for a month. Experienced complete cultural immersion." 
     - from: 2008
       to: 2009
       employer: Gendarmerie Nationale

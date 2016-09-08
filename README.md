@@ -36,6 +36,11 @@ Oil&Gas Service Company.
 Chinese cement industry, in the 12th five year government’s strategy
 plan perspective. Language: Chinese
 
+* 2010-2010
+| **Farmer**, [Chinese State Forest Farm](http://) (Xingtai, Hebei, China)
+> Worked in a Chinese State Farm for a month. Experienced complete
+cultural immersion.
+
 * 2008-2009
 | **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen - French Caribeean)
 > The Gendarmerie Nationale is part of the French armed forces. Its main
