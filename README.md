@@ -42,7 +42,7 @@ plan perspective. Language: Chinese
 cultural immersion.
 
 * 2008-2009
-| **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen - French Caribeean)
+| **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen - French Caribbean)
 > The Gendarmerie Nationale is part of the French armed forces. Its main
 missions are National Security and Law Enforcement. Assisted the
 commandant in place in the French West Indies to fight crime in a social
