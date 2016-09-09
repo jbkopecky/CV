@@ -16,7 +16,7 @@ Experience
 Oil&Gas companies mature fields.
 
 * 2012-2014
-| **Field Engineer**, [Schlumberger - Drilling & Measurement](http://www.slb.com) (Takoradi-Ghana)
+| **Field Engineer**, [Schlumberger - Drilling & Measurement](http://www.slb.com) (Takoradi, Ghana)
 > As a field engineer, provided logging while drilling services to
 national and major oil companies, in deep water exploration rigs in
 Ghana, Mauritania, but also offshore Croatia, onshore Italy & Poland.
@@ -24,14 +24,14 @@ Completed Schlumberger Drilling and Measurement Engineer Training in
 Tyumen, Siberia.
 
 * 2012-2012
-| **Business Analyst Intern**, [Schlumberger Business Consulting](http://) (Paris-France)
+| **Business Analyst Intern**, [Schlumberger Business Consulting](http://) (Paris, France)
 > In an international environment, developed analysis to improve Oil&Gas
 business operations: Designed world “Light Tight Oil” production
 forecast model, Conducted world Service Quality data analysis for
 Oil&Gas Service Company.
 
 * 2011-2011
-| **Research Assistant**, [Peking University, Guanghua](http://english.pku.edu.cn) (Beijing-China)
+| **Research Assistant**, [Peking University, Guanghua](http://english.pku.edu.cn) (Beijing, China)
 > In a Chinese research team, developed an energy efficiency index for the
 Chinese cement industry, in the 12th five year government’s strategy
 plan perspective. Language: Chinese
@@ -42,7 +42,7 @@ plan perspective. Language: Chinese
 cultural immersion.
 
 * 2008-2009
-| **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen - French Caribbean)
+| **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen, French Caribbean)
 > The Gendarmerie Nationale is part of the French armed forces. Its main
 missions are National Security and Law Enforcement. Assisted the
 commandant in place in the French West Indies to fight crime in a social

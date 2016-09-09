@@ -24,20 +24,20 @@ experience:
       employer: Schlumberger - Drilling \& Measurement
       url: www.slb.com
       job: Field Engineer
-      city: Takoradi-Ghana
+      city: Takoradi, Ghana
       description: "As a field engineer, provided logging while drilling services to national and major oil companies, in deep water exploration rigs in Ghana, Mauritania, but also offshore Croatia, onshore Italy & Poland. Completed Schlumberger Drilling and Measurement Engineer Training in Tyumen, Siberia."
     - from: 2012
       to: 2012
       employer: Schlumberger Business Consulting
       job: Business Analyst Intern
-      city: Paris-France
+      city: Paris, France
       description: "In an international environment, developed analysis to improve Oil&Gas business operations:  Designed world “Light Tight Oil” production forecast model, Conducted world Service Quality data analysis for Oil&Gas Service Company."
     - from: 2011
       to: 2011
       employer: Peking University, Guanghua
       url: english.pku.edu.cn
       job: Research Assistant
-      city: Beijing-China
+      city: Beijing, China
       description: "In a Chinese research team, developed an energy efficiency index for the Chinese cement industry, in the 12th five year government’s strategy plan perspective. Language: Chinese"
     - from: 2010
       to: 2010
@@ -50,7 +50,7 @@ experience:
       employer: Gendarmerie Nationale
       url: www.gendarmerie.interieur.gouv.fr
       job: Aspirant (Officer Candidate)
-      city: Saint Marteen - French Caribbean
+      city: Saint Marteen, French Caribbean
       description: "The Gendarmerie Nationale is part of the French armed forces. Its main missions are National Security and Law Enforcement. Assisted the commandant in place in the French West Indies to fight crime in a social powder keg. Followed criminal investigations, human rescue operations, worked with intervention squad and politicians."
 
 education:
@@ -86,4 +86,5 @@ interests:
 
 # Settings:
 fontsize: 10pt
+font: merriweather
 ---

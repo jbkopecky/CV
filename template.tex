@@ -3,7 +3,7 @@
 %                         jb.kopecky@gmail.com
 %------------------------------------------------------------------------------
 %    PREAMBULE                                                               {{{
-\documentclass[10pt]{article} % Default font size
+\documentclass[$fontsize$]{article} % Default font size
 %------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS                              {{{
 
@@ -23,7 +23,7 @@
 
 \usepackage{fourier}
 
-\renewcommand*\rmdefault{dayrom}
+\renewcommand*\rmdefault{$font$}
 
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
@@ -76,8 +76,8 @@
 \newcommand{\job}[6]{
 \begin{tabbing}
 \hspace{2cm} \= \kill
-{\color{slateblue}\textbf{#1}} \> \href{#4}{#3} \\
-{\color{slateblue}\textbf{#2}} \>\+ \textit{#5} \\
+{\color{slateblue}\bfseries{#1}} \> \color{slateblue}\href{#4}{#3} \\
+{\color{slateblue}\bfseries{#2}} \>\+ \itshape{#5} \\
 \begin{minipage}{\smallertextwidth}
 \vspace{1mm}
 #6
@@ -171,7 +171,7 @@ $endif$
 $for(experience)$
 \job
 {$experience.from$ -}{$experience.to$}
-{$experience.employer$}
+{$experience.employer$ ($experience.city$)}
 {$experience.url$}
 {$experience.job$}
 {$experience.description$}
