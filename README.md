@@ -69,9 +69,9 @@ _Native_
 * **English**
 _Bilingual_
 * **Chinese**
-_Notions_
+_Intermediate_
 * **Python**
-_Django, Scipy, Panda, Matplotlib_
+_Django, Scipy, Scikit Learn, Panda, Matplotlib_
 * **R**
 _Notions in diverse modeling frameworks, ggplot_
 * **Office**

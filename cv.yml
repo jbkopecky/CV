@@ -71,9 +71,9 @@ skills:
     - skill: English 
       description: Bilingual
     - skill: Chinese
-      description: Notions
+      description: Intermediate
     - skill: Python
-      description: Django, Scipy, Panda, Matplotlib
+      description: Django, Scipy, Scikit Learn, Panda, Matplotlib
     - skill: R
       description: Notions in diverse modeling frameworks, ggplot
     - skill: Office
