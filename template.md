@@ -26,6 +26,12 @@ $for(education)$
 
 $endfor$
 
+Languages
+------
+$for(languages)$
+* **$languages.skill$**
+_$languages.description$_
+$endfor$
 
 Skills
 ------

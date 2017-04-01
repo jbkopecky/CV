@@ -1,215 +1,134 @@
-%------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
 %                             JB KOPECKY CV
 %                         jb.kopecky@gmail.com
-%------------------------------------------------------------------------------
-%    PREAMBULE                                                               {{{
-\documentclass[$fontsize$]{article} % Default font size
-%------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS                              {{{
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS                                        {{{
+%----------------------------------------------------------------------------------------
 
-\usepackage[a4paper, hmargin=25mm, vmargin=20mm, top=20mm]{geometry} % Use A4 paper and set margins
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=35mm,top=26mm,right=35mm,bottom=15mm]{geometry}
 
-\usepackage{fancyhdr} % Customize the header and footer
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = {* SmallCaps}]{Fontin}
 
-\usepackage[hidelinks]{hyperref} % Colors for links, text and headings
+\usepackage{xltxtra,url,parskip,multicol,fontawesome}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo}
+\usepackage{hyperref}
 
-\usepackage{enumitem} % Can change interline spacing in itemizations.
 
-\usepackage{multicol}
+\definecolor{linkcolour}{gray}{0.40}
+\definecolor{comment}{gray}{0.40}
+\definecolor{accent}{gray}{0.40}
+\definecolor{lightcomment}{gray}{0.85}
+% \definecolor{accent}{rgb}{0,0.32,0.63}
 
-\setcounter{secnumdepth}{0} % Suppress section numbering
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
 
-\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage{titlesec}
+\titleformat{\section}{\color{accent}\Large\scshape\raggedright}{}{0em}{}[\color{comment}\titlerule]
+\titlespacing{\section}{0pt}{0pt}{0pt}
 
-\usepackage{fourier}
-
-\renewcommand*\rmdefault{$font$}
-
-\usepackage[T1]{fontenc} % Output font encoding for international characters
-
-\usepackage{color} % Required for custom colors
-
-\definecolor{slateblue}{rgb}{0.17,0.22,0.34}
-
-\usepackage{sectsty} % Allows customization of titles
-
-\sectionfont{\color{slateblue}} % Color section titles
-
-\pagestyle{plain} % Use the custom page style through the document
-
-\pagenumbering{gobble} % Suppress page numbers
-
-\renewcommand{\headrulewidth}{0pt} % Disable the default header rule
-
-\renewcommand{\footrulewidth}{0pt} % Disable the default footer rule
-
-\setlength\parindent{0pt} % Stop paragraph indentation
-
-% \usepackage{xeCJK} % Chinese
-% \setCJKmainfont{SimSun} % Chinese
-
-% Non-indenting itemize
-
-\newenvironment{itemize-noindent}
-{\vspace{-2mm}\setlength{\leftmargini}{0em}\begin{itemize}[noitemsep]}{\end{itemize}}
-
-% Text width for tabbing environments
-\newlength{\smallertextwidth}
-\setlength{\smallertextwidth}{\textwidth}
-\addtolength{\smallertextwidth}{-2cm}
-
-\newcommand{\sqbullet}{~\vrule height 1ex width .8ex depth -.2ex} % Custom square bullet point definition
-
-% }}}
-%------------------------------------------------------------------------------
-%	MAIN HEADER COMMAND                                                     {{{
-
-\renewcommand{\title}[1]{
-{\huge{ \color{slateblue}\textbf{#1} }}\\ % Header section name and color
-\rule{\textwidth}{0.3mm}\\ % Rule under the header
-}
-
-% }}}
-%------------------------------------------------------------------------------
-%	JOB COMMAND                                                             {{{
-
-\newcommand{\job}[6]{
-\begin{tabbing}
-\hspace{2cm} \= \kill
-{\color{slateblue}\bfseries{#1}} \> \color{slateblue}\href{#4}{#3} \\
-{\color{slateblue}\bfseries{#2}} \>\+ \itshape{#5} \\
-\begin{minipage}{\smallertextwidth}
-\vspace{1mm}
-#6
-\end{minipage}
-\end{tabbing}
-\vspace{1mm}
-}
-% }}}
-%------------------------------------------------------------------------------
-%	SKILL GROUP COMMAND                                                     {{{
-
-\newcommand{\skillgroup}[2]{
-\begin{tabbing}
-\hspace{5mm} \= \kill
-\sqbullet \>\+ \textbf{#1} \\
-\begin{minipage}{\smallertextwidth}
-\vspace{1mm}
-#2
-\end{minipage}
-\end{tabbing}
-}
-% }}}
-%------------------------------------------------------------------------------
-%	INTERESTS GROUP COMMAND                                                 {{{
-
-\newcommand{\interestsgroup}[1]{
-\begin{tabbing}
-\hspace{3mm} \= \kill
-#1
-\end{tabbing}
-\vspace{-10mm}
-}
-
-\newcommand{\interest}[1]{\sqbullet \> \textbf{#1}\\[3pt]} % Define a custom command for individual interests
-
-% }}}
-%------------------------------------------------------------------------------
-%	TABBED BLOCK COMMAND                                                    {{{
-
-\newcommand{\tabbedblock}[1]{
-\begin{tabbing}
-\hspace{2cm} \= \hspace{4cm} \= \kill
-#1
-\end{tabbing}
-}
-% }}}
-%------------------------------------------------------------------------------
 \begin{document}
-%}}}
-%------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION                                            {{{
-%------------------------------------------------------------------------------
+\pagestyle{empty} % Removes page numbering
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
-\title{$name$} % Print the main header
+% }}}
+%----------------------------------------------------------------------------------------
+%    NAME AND CONTACT INFORMATION                                                      {{{
+%----------------------------------------------------------------------------------------
 
-\vspace{-5mm}
-
-\begin{multicols}{2}
-
+% \addtolength{\voffset}{-1.3cm}
+\par{\centering{\Huge $name$}\par} % Your name
+\par{\centering{
 $if(address)$
 $for(address)$
-$address$\\
+\textcolor{comment}{$address.street$} 
+\textcolor{lightcomment}{$$~~\bullet~~$$}
+\textcolor{comment}{$address.code$}
+\textcolor{lightcomment}{$$~~\bullet~~$$}
+\textcolor{comment}{$address.city$}
+\\
 $endfor$
 $endif$
-
-$if(urls)$
-$for(urls)$
-\href{$urls.url$}{$urls.url$}\\
-$endfor$
-$endif$
-
-% \vspace{-10pt}  
-\columnbreak
-
 $if(phone)$
-$phone$\\
+\textcolor{comment}{\faPhone~~$phone$}
+\textcolor{lightcomment}{$$~~\bullet~~$$}
 $endif$
-$if(email)$
-\href{mailto:$email$}{$email$}\\
-$endif$
-\end{multicols}
-
-
-\vspace{-5mm}
+\textcolor{comment}{\faLinkedinSign~\faGithub~~$username$}
+\textcolor{lightcomment}{$$~~\bullet~~$$}
+\textcolor{comment}{\faEnvelope~~\href{mailto:$email$}{$email$}}
+}\bigskip\par}
 
 % }}}
-%------------------------------------------------------------------------------
-%	EMPLOYMENT HISTORY SECTION                                              {{{
-
-\section{Employment History}
-$for(experience)$
-\job
-{$experience.from$ -}{$experience.to$}
-{$experience.employer$ ($experience.city$)}
-{$experience.url$}
-{$experience.job$}
-{$experience.description$}
-$endfor$
-
-% }}}
-%------------------------------------------------------------------------------
-%	EDUCATION SECTION                                                       {{{
+%----------------------------------------------------------------------------------------
+%    EDUCATION                                                                         {{{
+%----------------------------------------------------------------------------------------
 
 \section{Education}
+
+\begin{tabular}{rl}	
+
 $for(education)$
-\tabbedblock{
-    {\color{slateblue}\bf{$education.year$}} \> $education.subject$ - \href{http://$education.url$}{$education.institute$} \\
-\>\textit{$education.description$}
-}
+$education.year$ & $education.subject$, \href{http://$education.url$}{$education.institute$}\\
+                 &\textsf{\small{$education.description$}}\\
 $endfor$
-% }}}
-%------------------------------------------------------------------------------
-%	SKILLS SECTION                                                          {{{
+\end{tabular}
 
-\section{Skills}
+% }}}
+%----------------------------------------------------------------------------------------
+%    WORK EXPERIENCE                                                                   {{{
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+$for(experience)$
+$experience.to$   & $experience.job$\\
+$experience.from$ & \textsc{$experience.employer$}\textcolor{lightcomment}{$$~~\bullet~~$$}$experience.city$ \\
+                  & \footnotesize{\textsf{$experience.description$}}\\
+\multicolumn{2}{c}{} \\
+$endfor$
+\end{tabular}
+% }}}
+%----------------------------------------------------------------------------------------
+%    COMPUTER SKILLS                                                                   {{{
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2}
+\section{Computer Skills}
+\begin{description}
 $for(skills)$
-\textit{$skills.skill$} - $skills.description$\\
+\item[\textsc{$skills.skill$}]\footnotesize{\textsf{$skills.description$}}
 $endfor$
+\end{description}
+
+\columnbreak
+% }}}
+%----------------------------------------------------------------------------------------
+%    LANGUAGES                                                                         {{{
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+$for(languages)$
+\textsc{$languages.skill$:} & $languages.description$\\
+$endfor$
+\end{tabular}
+\end{multicols}
 
 % }}}
-%------------------------------------------------------------------------------
-%	INTERESTS SECTION                                                       {{{
+%----------------------------------------------------------------------------------------
+%    INTERESTS AND ACTIVITIES                                                          {{{
+%----------------------------------------------------------------------------------------
 
-\section{Interests}
-
-\interestsgroup{
+\section{Interests and Activities}
 $for(interests)$
-\interest{$interests$}
+$interests$\\
 $endfor$
-}
-%------------------------------------------------------------------------------
 
 \end{document}
 % }}}
-%------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------

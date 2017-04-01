@@ -18,7 +18,7 @@ experience:
       url: www.foroil.com
       job: Reservoir Engineer - Data Scientist
       city: Paris
-      description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields."
+      description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields. Worked on R&D projects: Model & Optimization Uncertainty study, Data Visualisation tools."
     - from: 2012
       to: 2014
       employer: Schlumberger - Drilling \& Measurement
@@ -51,7 +51,7 @@ experience:
       url: www.gendarmerie.interieur.gouv.fr
       job: Aspirant (Officer Candidate)
       city: Saint Marteen, French Caribbean
-      description: "The Gendarmerie Nationale is part of the French armed forces. Its main missions are National Security and Law Enforcement. Assisted the commandant in place in the French West Indies to fight crime in a social powder keg. Followed criminal investigations, human rescue operations, worked with intervention squad and politicians."
+      description: "Followed criminal investigations, human rescue operations, worked with intervention squad and politicians."
 
 education:
     - year: 2011--2012
@@ -65,13 +65,15 @@ education:
       url: www.polytechnique.edu/en
       description: "Mechanics, Physics, Business strategy, Econometrics"
 
-skills:
+languages:
     - skill: French
       description: Native
     - skill: English 
       description: Bilingual
     - skill: Chinese
       description: Intermediate
+
+skills:
     - skill: Python
       description: Django, Scipy, Scikit Learn, Panda, Matplotlib
     - skill: R

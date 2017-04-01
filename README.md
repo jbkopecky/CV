@@ -13,7 +13,8 @@ Experience
 * 2014-Today
 | **Reservoir Engineer - Data Scientist**, [FOROIL](http://www.foroil.com) (Paris)
 > Provided in-depth data analysis and optimized development plans for
-Oil&Gas companies mature fields.
+Oil&Gas companies mature fields. Worked on R&D projects: Model &
+Optimization Uncertainty study, Data Visualisation tools.
 
 * 2012-2014
 | **Field Engineer**, [Schlumberger - Drilling & Measurement](http://www.slb.com) (Takoradi, Ghana)
@@ -43,11 +44,8 @@ cultural immersion.
 
 * 2008-2009
 | **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen, French Caribbean)
-> The Gendarmerie Nationale is part of the French armed forces. Its main
-missions are National Security and Law Enforcement. Assisted the
-commandant in place in the French West Indies to fight crime in a social
-powder keg. Followed criminal investigations, human rescue operations,
-worked with intervention squad and politicians.
+> Followed criminal investigations, human rescue operations, worked with
+intervention squad and politicians.
 
 
 Education
@@ -61,8 +59,7 @@ Education
 > Mechanics, Physics, Business strategy, Econometrics
 
 
-
-Skills
+Languages
 ------
 * **French**
 _Native_
@@ -70,6 +67,9 @@ _Native_
 _Bilingual_
 * **Chinese**
 _Intermediate_
+
+Skills
+------
 * **Python**
 _Django, Scipy, Scikit Learn, Panda, Matplotlib_
 * **R**
