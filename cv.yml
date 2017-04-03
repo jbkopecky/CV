@@ -18,34 +18,51 @@ experience:
       employer: FOROIL
       url: www.foroil.com
       job: Reservoir Engineer - Data Scientist
-      city: Paris
-      description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields. Worked on R&D projects: Model & Optimization Uncertainty study, Data Visualisation tools."
+      city: Paris, France
+      description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields:"
+      accomplishments:
+          - Lead major client oil field production optimisation phase. Gained more than 15\% in Oil and NPV, saving several million dollars in innefficient CAPEX expenditures.
+          - Conducted in depth model uncertainties analysis. Initiated company API design and development.
+          - Parallelized software test suite, reducing run time by half. 
+          - Developed in-house data visualisation tool.
     - from: 2012
       to: 2014
       employer: Schlumberger - Drilling \& Measurement
       url: www.slb.com
       job: Field Engineer
       city: Takoradi, Ghana
-      description: "As a field engineer, provided logging while drilling services to national and major oil companies, in deep water exploration rigs in Ghana, Mauritania, but also offshore Croatia, onshore Italy & Poland. Completed Schlumberger Drilling and Measurement Engineer Training in Tyumen, Siberia."
+      description: "As a deep water drilling field engineer, provided logging while drilling services to oil companies:"
+      accomplishments:
+          - Successfully participated in costly (+2M\$/d) remote deep water offshore exploration in Mauritania.
+          - Successfully supervised rig site operations offshore Ghana of equipment over 2M\$ without downtime. 
+          - "Rotated in several countries for drilling operations: Ghana, Mauritania, offshore Croatia, onshore Italy & Poland." 
+          - Completed Schlumberger Drilling and Measurement Engineer Training in Tyumen, Siberia.
     - from: 2012
       to: 2012
       employer: Schlumberger Business Consulting
       job: Business Analyst Intern
       city: Paris, France
-      description: "In an international environment, developed analysis to improve Oil&Gas business operations:  Designed world “Light Tight Oil” production forecast model, Conducted world Service Quality data analysis for Oil&Gas Service Company."
+      description: "In an international environment, developed analysis to improve Oil&Gas business operations:"
+      accomplishments:
+          - Designed worldwide “Light Tight Oil” production forecast model.
+          - Successfully lead Service Quality data analysis for Oil&Gas Service Company.
     - from: 2011
       to: 2011
       employer: Peking University, Guanghua
       url: english.pku.edu.cn
       job: Research Assistant
       city: Beijing, China
-      description: "In a Chinese research team, developed an energy efficiency index for the Chinese cement industry, in the 12th five year government’s strategy plan perspective. Language: Chinese"
-    - from: 2010
-      to: 2010
-      employer: Chinese State Forest Farm
-      job: Farmer
-      city: Xingtai, Hebei, China
-      description: "Worked in a Chinese State Farm for a month. Experienced complete cultural immersion." 
+      description: "As a summer research intern, in a Chinese research team (language: Chinese):" 
+      accomplishments: 
+           - Developed an energy efficiency index and benchmark for the Chinese cement industry.
+           - Proposed an energy efficiency cutoff for cement factories to reach Chinese Government energy saving targets.
+    # - from: 2010
+    #   to: 2010
+    #   employer: Chinese State Forest Farm
+    #   job: Farmer
+    #   city: Xingtai, Hebei, China
+    #   description: "Worked in a Chinese State Farm for a month. Experienced complete cultural immersion." 
+    #   accomplishments:
     - from: 2008
       to: 2009
       employer: Gendarmerie Nationale
@@ -53,6 +70,7 @@ experience:
       job: Aspirant (Officer Candidate)
       city: Saint Marteen, French Caribbean
       description: "Followed criminal investigations, human rescue operations, worked with intervention squad and politicians."
+      accomplishments:
 
 education:
     - year: 2011--2012
@@ -73,19 +91,22 @@ languages:
       description: Bilingual
     - skill: Chinese
       description: Intermediate
+    - skill: Spanish
+      description: Notions
 
 skills:
     - skill: Python
-      description: Django, Scipy, Scikit Learn, Panda, Matplotlib
+      description: Django, Scrapy, Scipy, Scikit Learn, Pandas
     - skill: R
       description: Notions in diverse modeling frameworks, ggplot
     - skill: Office
-      description: Advanced in Excel, Powerpoint, Latex
+      description: Advanced in Excel, Powerpoint, \LaTeX
     - skill: Divers
       description: bash, git, svn, vim
 
 interests:
-    - Sailing, Triathlon, Bike trekking
+    - Sailing Competitions, Triathlon, Bike treks in France, Israel (through Negev desert), China
+    - Participated in two 5\raisebox{-1ex}{O}5 dinghy competition seasons with \texteuro20k sponsoring budget. 
 
 # Settings:
 fontsize: 10pt

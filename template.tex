@@ -6,7 +6,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[a4paper,10pt]{article}
-\usepackage[left=35mm,top=26mm,right=35mm,bottom=15mm]{geometry}
+\usepackage[left=25mm,top=26mm,right=25mm,bottom=15mm]{geometry}
 
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
@@ -14,15 +14,14 @@
 
 \usepackage{xltxtra,url,parskip,multicol,fontawesome}
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[big]{layaureo}
+% \usepackage[big]{layaureo}
 \usepackage{hyperref}
 
-
+% Colors Definition
 \definecolor{linkcolour}{gray}{0.40}
 \definecolor{comment}{gray}{0.40}
-\definecolor{accent}{gray}{0.40}
 \definecolor{lightcomment}{gray}{0.85}
-% \definecolor{accent}{rgb}{0,0.32,0.63}
+\definecolor{accent}{rgb}{0.24,0.0,0.0}
 
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
 
@@ -40,7 +39,7 @@
 %----------------------------------------------------------------------------------------
 
 % \addtolength{\voffset}{-1.3cm}
-\par{\centering{\Huge $name$}\par} % Your name
+\par{\centering{\Huge\textcolor{accent}{$name$}}\par} % Your name
 \par{\centering{
 $if(address)$
 $for(address)$
@@ -69,9 +68,8 @@ $endif$
 \section{Education}
 
 \begin{tabular}{rl}	
-
 $for(education)$
-$education.year$ & $education.subject$, \href{http://$education.url$}{$education.institute$}\\
+$education.year$ & $education.subject$\textcolor{lightcomment}{$$~~\bullet~~$$} \href{http://$education.url$}{$education.institute$}\\
                  &\textsf{\small{$education.description$}}\\
 $endfor$
 \end{tabular}
@@ -83,11 +81,14 @@ $endfor$
 
 \section{Work Experience}
 
-\begin{tabular}{r|p{11cm}}
+\begin{tabular}{r|p{14cm}}
 $for(experience)$
 $experience.to$   & $experience.job$\\
-$experience.from$ & \textsc{$experience.employer$}\textcolor{lightcomment}{$$~~\bullet~~$$}$experience.city$ \\
-                  & \footnotesize{\textsf{$experience.description$}}\\
+$experience.from$ & \textsc{$experience.employer$}\textcolor{lightcomment}{$$~~\bullet~~$$}\textcolor{comment}{$experience.city$} \\
+                  & \footnotesize{\textsf{\textbf{$experience.description$}}}\\
+$for(experience.accomplishments)$ 
+\textcolor{lightcomment}{$$\bullet$$} & \footnotesize{\textsf{$experience.accomplishments$}}\\
+$endfor$
 \multicolumn{2}{c}{} \\
 $endfor$
 \end{tabular}
@@ -100,18 +101,16 @@ $endfor$
 \section{Computer Skills}
 \begin{description}
 $for(skills)$
-\item[\textsc{$skills.skill$}]\footnotesize{\textsf{$skills.description$}}
+\item[$skills.skill$]\textsf{$skills.description$}
 $endfor$
 \end{description}
 
-\columnbreak
 % }}}
 %----------------------------------------------------------------------------------------
 %    LANGUAGES                                                                         {{{
 %----------------------------------------------------------------------------------------
 
 \section{Languages}
-
 \begin{tabular}{rl}
 $for(languages)$
 \textsc{$languages.skill$:} & $languages.description$\\
@@ -124,9 +123,9 @@ $endfor$
 %    INTERESTS AND ACTIVITIES                                                          {{{
 %----------------------------------------------------------------------------------------
 
-\section{Interests and Activities}
+\section{Personal}
 $for(interests)$
-$interests$\\
+\textcolor{lightcomment}{$$~~\bullet~~$$}\textsf{$interests$}\\
 $endfor$
 
 \end{document}
