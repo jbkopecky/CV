@@ -2,11 +2,16 @@
 # Personal Details
 name: Jean-Baptiste KOPECKY
 email: jb.kopecky@gmail.com
+address:
+    - street: "35 rue XX"
+      code: 75XXX
+      city: Paris, FRANCE
+phone: "+33 7 XX XX XX XX"
 username: jbkopecky
-urls: 
+urls:
     - url: www.linkedin.com/in/jbkopecky
       logo: "static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png"
-      name: linkedin 
+      name: linkedin
     - url: www.github.com/jbkopecky
       logo: "raw.githubusercontent.com/ICI3D/ICI3D.github.io/master/images/GitHub-Logos/GitHub-Mark-32px.png"
       name: github
@@ -17,7 +22,7 @@ experience:
       to: Today
       employer: FOROIL
       url: www.foroil.com
-      job: Reservoir Engineer - Data Scientist
+      job: Petroleum Engineer - Data Scientist
       city: Paris, France
       description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields:"
       accomplishments:
@@ -35,7 +40,7 @@ experience:
       accomplishments:
           - Successfully participated in costly (+2M\$/d) remote deep water offshore exploration in Mauritania.
           - Successfully supervised rig site operations offshore Ghana of equipment over 2M\$ without downtime. 
-          - "Rotated in several countries for drilling operations: Ghana, Mauritania, offshore Croatia, onshore Italy & Poland." 
+          - "Rotated in several countries for drilling operations: Ghana, Mauritania, offshore Croatia, onshore Italy & Poland."
           - Completed Schlumberger Drilling and Measurement Engineer Training in Tyumen, Siberia.
     - from: 2012
       to: 2012
@@ -52,8 +57,8 @@ experience:
       url: english.pku.edu.cn
       job: Research Assistant
       city: Beijing, China
-      description: "As a summer research intern, in a Chinese research team (language: Chinese):" 
-      accomplishments: 
+      description: "As a summer research intern, in a Chinese research team (language: Chinese):"
+      accomplishments:
            - Developed an energy efficiency index and benchmark for the Chinese cement industry.
            - Proposed an energy efficiency cutoff for cement factories to reach Chinese Government energy saving targets.
     # - from: 2010
@@ -61,7 +66,7 @@ experience:
     #   employer: Chinese State Forest Farm
     #   job: Farmer
     #   city: Xingtai, Hebei, China
-    #   description: "Worked in a Chinese State Farm for a month. Experienced complete cultural immersion." 
+    #   description: "Worked in a Chinese State Farm for a month. Experienced complete cultural immersion."
     #   accomplishments:
     - from: 2008
       to: 2009
@@ -87,7 +92,7 @@ education:
 languages:
     - skill: French
       description: Native
-    - skill: English 
+    - skill: English
       description: Bilingual
     - skill: Chinese
       description: Intermediate
@@ -106,7 +111,7 @@ skills:
 
 interests:
     - Sailing Competitions, Triathlon, Bike treks in France, Israel (through Negev desert), China
-    - Participated in two 5\raisebox{-1ex}{O}5 dinghy competition seasons with \texteuro20k sponsoring budget. 
+    - Participated in two 5\raisebox{-1ex}{O}5 dinghy competition seasons with \texteuro20k sponsoring budget.
 
 # Settings:
 fontsize: 10pt

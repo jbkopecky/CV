@@ -11,7 +11,7 @@ jb.kopecky@gmail.com
 Experience
 ----------
 * 2014-Today
-| **Reservoir Engineer - Data Scientist**, [FOROIL](http://www.foroil.com) (Paris, France)
+| **Petroleum Engineer - Data Scientist**, [FOROIL](http://www.foroil.com) (Paris, France)
 > Provided in-depth data analysis and optimized development plans for
 Oil&Gas companies mature fields:
 

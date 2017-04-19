@@ -1,7 +1,7 @@
 %----------------------------------------------------------------------------------------
 %                             JB KOPECKY CV
 %                         jb.kopecky@gmail.com
-%----------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------
 %    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS                                        {{{
 %----------------------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ $endfor$
 $for(experience)$
 $experience.to$   & $experience.job$\\
 $experience.from$ & \textsc{$experience.employer$}\textcolor{lightcomment}{$$~~\bullet~~$$}\textcolor{comment}{$experience.city$} \\
-                  & \footnotesize{\textsf{\textbf{$experience.description$}}}\\
+                  & \footnotesize{\textsf{\textbf{$experience.description$}} }\\
 $for(experience.accomplishments)$ 
 \textcolor{lightcomment}{$$\bullet$$} & \footnotesize{\textsf{$experience.accomplishments$}}\\
 $endfor$
