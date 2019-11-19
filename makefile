@@ -2,7 +2,7 @@ TEX = pandoc
 SRC = cv.yml
 TEXTEMPLATE = template.tex
 MKDTEMPLATE = template.md
-FLAGS = --latex-engine=xelatex
+FLAGS = --pdf-engine=lualatex
 
 all : README.md cv.pdf
 

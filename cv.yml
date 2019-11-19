@@ -18,8 +18,18 @@ urls:
 
 # Sections
 experience:
-    - from: 2014
+    - from: 2018
       to: Today
+      employer: McKinsey & Company
+      url: www.mckinsey.com
+      job: Consultant - Data Scientist
+      city: Paris, France
+      description: "Consulted as Lead Data Scientist in multiple industries, on various use cases, from optimisation to machine learning"
+      accomplishments:
+          - Successfully consulted in data science projects in many different industries (Pharmaceutical, Aerospace, Oil&Gas, Retail, ...) developping and putting in production various use cases, from predictive to prescriptive solutions.
+          - Full Stack competencies. Back-end, front-end, machine learning, databases, cloud solutions... Mainly Python language.
+    - from: 2014
+      to: 2017
       employer: FOROIL
       url: www.foroil.com
       job: Petroleum Engineer - Data Scientist
@@ -27,9 +37,6 @@ experience:
       description: "Provided in-depth data analysis and optimized development plans for Oil&Gas companies mature fields:"
       accomplishments:
           - Lead major client oil field production optimisation phase. Gained more than 15\% in Oil and NPV, saving several million dollars in innefficient CAPEX expenditures.
-          - Conducted in depth model uncertainties analysis. Initiated company API design and development.
-          - Parallelized software test suite, reducing run time by half. 
-          - Developed in-house data visualisation tool.
     - from: 2012
       to: 2014
       employer: Schlumberger - Drilling \& Measurement
@@ -38,10 +45,7 @@ experience:
       city: Takoradi, Ghana
       description: "As a deep water drilling field engineer, provided logging while drilling services to oil companies:"
       accomplishments:
-          - Successfully participated in costly (+2M\$/d) remote deep water offshore exploration in Mauritania.
-          - Successfully supervised rig site operations offshore Ghana of equipment over 2M\$ without downtime. 
-          - "Rotated in several countries for drilling operations: Ghana, Mauritania, offshore Croatia, onshore Italy & Poland."
-          - Completed Schlumberger Drilling and Measurement Engineer Training in Tyumen, Siberia.
+          - Successfully participated in costly (+2M\$/d) remote deep water offshore exploration in multiple locations.
     - from: 2012
       to: 2012
       employer: Schlumberger Business Consulting
@@ -50,7 +54,6 @@ experience:
       description: "In an international environment, developed analysis to improve Oil&Gas business operations:"
       accomplishments:
           - Designed worldwide “Light Tight Oil” production forecast model.
-          - Successfully lead Service Quality data analysis for Oil&Gas Service Company.
     - from: 2011
       to: 2011
       employer: Peking University, Guanghua
@@ -60,7 +63,6 @@ experience:
       description: "As a summer research intern, in a Chinese research team (language: Chinese):"
       accomplishments:
            - Developed an energy efficiency index and benchmark for the Chinese cement industry.
-           - Proposed an energy efficiency cutoff for cement factories to reach Chinese Government energy saving targets.
     # - from: 2010
     #   to: 2010
     #   employer: Chinese State Forest Farm
@@ -104,8 +106,6 @@ skills:
       description: Django, Scrapy, Scipy, Scikit Learn, Pandas
     - skill: R
       description: Notions in diverse modeling frameworks, ggplot
-    - skill: Office
-      description: Advanced in Excel, Powerpoint, \LaTeX
     - skill: Divers
       description: bash, git, svn, vim
 

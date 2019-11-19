@@ -10,9 +10,9 @@
 
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[SmallCapsFont = {* SmallCaps}]{Fontin}
+% \setmainfont{Baskerville}
 
-\usepackage{xltxtra,url,parskip,multicol,fontawesome}
+\usepackage{xltxtra,url,parskip,multicol,fontawesome5}
 \usepackage[usenames,dvipsnames]{xcolor}
 % \usepackage[big]{layaureo}
 \usepackage{hyperref}
@@ -31,7 +31,7 @@
 
 \begin{document}
 \pagestyle{empty} % Removes page numbering
-\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+% \font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
 % }}}
 %----------------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ $if(phone)$
 \textcolor{comment}{\faPhone~~$phone$}
 \textcolor{lightcomment}{$$~~\bullet~~$$}
 $endif$
-\textcolor{comment}{\faLinkedinSign~\faGithub~~$username$}
+\textcolor{comment}{\faLinkedin~\faGithub~~$username$}
 \textcolor{lightcomment}{$$~~\bullet~~$$}
 \textcolor{comment}{\faEnvelope~~\href{mailto:$email$}{$email$}}
 }\bigskip\par}

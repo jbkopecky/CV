@@ -1,7 +1,7 @@
 Jean-Baptiste KOPECKY
 ======
 
-jb.kopecky@gmail.com
+jb.kopecky\@gmail.com
 
 ![linkedin](https://static.licdn.com/scds/common/u/img/webpromo/btn\_in\_20x15.png)
 [linkedin](https://www.linkedin.com/in/jbkopecky)
@@ -10,7 +10,12 @@ jb.kopecky@gmail.com
 
 Experience
 ----------
-* 2014-Today
+* 2018-Today
+| **Consultant - Data Scientist**, [McKinsey & Company](http://www.mckinsey.com) (Paris, France)
+> Consulted as Lead Data Scientist in multiple industries, on various use
+cases, from optimisation to machine learning
+
+* 2014-2017
 | **Petroleum Engineer - Data Scientist**, [FOROIL](http://www.foroil.com) (Paris, France)
 > Provided in-depth data analysis and optimized development plans for
 Oil&Gas companies mature fields:
@@ -64,8 +69,6 @@ Skills
 _Django, Scrapy, Scipy, Scikit Learn, Pandas_
 * **R**
 _Notions in diverse modeling frameworks, ggplot_
-* **Office**
-_Advanced in Excel, Powerpoint, \LaTeX_
 * **Divers**
 _bash, git, svn, vim_
 
