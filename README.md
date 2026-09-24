@@ -10,72 +10,64 @@ jb.kopecky@gmail.com
 
 Experience
 ----------
-* 2022-Aujourd'hui
+* 2022-Today
 | **Chief Technology Officer
 (CTO)**, [Hyperplan](http://www.hyperplan.fr) (Paris, France)
-> Responsable de la vision technique et du développement produit d'une
-plateforme SaaS d'intelligence agricole.
+> Tech and product lead of a SaaS agricultural intelligence platform.
 
 * 2018-2022
 | **Consultant - Data Scientist**, [McKinsey &
 Company](http://www.mckinsey.com) (Paris, France)
-> Responsable de projets data de bout-en-bout dans de nombreux secteurs
-(santé, industrie, énergie, grande distribution...).
+> End-to-end data projects across healthcare, industry, energy and
+retail.
 
 * 2014-2017
-| **Ingénieur Pétrolier - Data
+| **Petroleum Engineer - Data
 Scientist**, [FOROIL](http://www.foroil.com) (Paris, France)
-> Analyse de données et optimisation de la production sur des champs
-pétroliers matures.
+> Data analysis and production optimisation of mature oil fields.
 
 * 2012-2014
-| **Ingénieur de terrain**, [Schlumberger - Drilling &
+| **Field Engineer**, [Schlumberger - Drilling &
 Measurement](http://www.slb.com) (Takoradi, Ghana)
-> Ingénieur de forage offshore profond, en charge des mesures en temps
-réel.
+> Deepwater drilling engineer, real-time measurements.
 
 * 2008-2009
-| **Aspirant (Officier stagiaire)**, [Gendarmerie
+| **Officer Cadet**, [Gendarmerie
 Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint-Martin,
-Antilles françaises)
-> Stage d'immersion opérationnelle au sein d'une Compagnie de
-gendarmerie.
+French Caribbean)
+> Operational internship: investigations, patrols, sea rescue.
 
 
 Education
 ---------
-* 2011--2012 | **Économie de l'Énergie, Stratégie, Finance - MSc**,
+* 2011--2012 | **Energy Economics, Strategy, Finance - MSc**,
   [IFP School](https://www.ifp-school.com)
-> Stratégie pétrolière, gestion de projet, finance et marchés de
-l'énergie.
+> Oil & gas strategy, project management, energy finance.
 
-* 2008--2012 | **Diplôme d'Ingénieur de l'École Polytechnique**,
+* 2008--2012 | **Engineering Degree**,
   [École Polytechnique](https://www.polytechnique.edu/en)
-> Physique, mécanique, économie, stratégie industrielle, économétrie.
+> Physics, mechanics, economics, econometrics.
 
 
 Languages
 ------
-* **Français**
-_Langue maternelle_
-* **Anglais**
-_Bilingue_
-* **Chinois**
-_Intermédiaire_
+* **French**
+_Native_
+* **English**
+_Fluent_
+* **Chinese**
+_Intermediate_
 
 Skills
 ------
 * **Python**
-_Expertise avancée: pandas, numpy, scikit-learn, PyTorch, DuckDB,
-FastAPI, sqlalchemy, Celery, Dash, Streamlit._
-* **Data Engineering**
-_Fichiers Parquet, partitionnement Hive, S3, DuckDB, PostgreSQL,
-ElasticSearch._
+_pandas, numpy, scikit-learn, PyTorch, FastAPI, SQLAlchemy, Celery._
+* **Data**
+_Parquet, DuckDB, PostgreSQL, S3, ElasticSearch._
 * **Cloud & Ops**
-_Docker, GitHub Actions, Azure, GCP, déploiement d'apps data
-full-stack._
+_Docker, GitHub Actions, Azure, GCP._
 
 Interests
 ---------
-* Photographie argentique, trail running, voyages à vélo, randonnée.
+* Film photography, trail running, bike touring, hiking.
 

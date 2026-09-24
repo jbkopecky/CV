@@ -2,11 +2,6 @@
 # Personal Details
 name: Jean-Baptiste KOPECKY
 email: jb.kopecky@gmail.com
-address:
-  - street: "XX rue XX"
-    code: 75XXX
-    city: Paris, FRANCE
-phone: "+33 7 XX XX XX XX"
 username: jbkopecky
 urls:
   - url: www.linkedin.com/in/jbkopecky
@@ -19,91 +14,82 @@ urls:
 # Sections
 experience:
   - from: 2022
-    to: Aujourd'hui
+    to: Today
     employer: Hyperplan
     url: www.hyperplan.fr
     job: Chief Technology Officer (CTO)
     city: Paris, France
-    description: "Responsable de la vision technique et du développement produit d'une plateforme SaaS d’intelligence agricole."
+    description: "Tech and product lead of a SaaS agricultural intelligence platform."
     accomplishments:
-      - Conception et pilotage de l'architecture data, ingestion satellite, moteur d’analyse spatio-temporelle, génération de prédictions.
-      - Mise en place d’un Feature Store géospatial à grande échelle (Parquet + DuckDB + PostgreSQL).
-      - Recrutement, encadrement et montée en compétence d’une équipe d’ingénieurs et de data scientists.
-      - Culture produit et cycle agile, livraisons rapides avec une forte attention au besoin utilisateur.
+      - Designed the data architecture, satellite ingestion and spatio-temporal prediction engine.
+      - Built a large-scale geospatial feature store (Parquet, DuckDB, PostgreSQL).
+      - Hired and led a team of engineers and data scientists.
   - from: 2018
     to: 2022
     employer: McKinsey & Company
     url: www.mckinsey.com
     job: Consultant - Data Scientist
     city: Paris, France
-    description: "Responsable de projets data de bout-en-bout dans de nombreux secteurs (santé, industrie, énergie, grande distribution...)."
+    description: "End-to-end data projects across healthcare, industry, energy and retail."
     accomplishments:
-      - Pilotage et réalisation de cas d’usage avancés en IA, optimisation, modélisation et visualisation.
-      - Déploiement d’applications analytiques robustes en production full-stack.
-      - Leadership technique, accompagnement client et mentoring d’équipes data.
+      - Delivered AI, optimisation and analytics use cases, deployed to production.
+      - Technical lead and mentor for client data teams.
   - from: 2014
     to: 2017
     employer: FOROIL
     url: www.foroil.com
-    job: Ingénieur Pétrolier - Data Scientist
+    job: Petroleum Engineer - Data Scientist
     city: Paris, France
-    description: "Analyse de données et optimisation de la production sur des champs pétroliers matures."
+    description: "Data analysis and production optimisation of mature oil fields."
     accomplishments:
-      - Responsable d’un projet stratégique d’optimisation de production
+      - Led a strategic production optimisation project.
   - from: 2012
     to: 2014
     employer: Schlumberger - Drilling & Measurement
     url: www.slb.com
-    job: Ingénieur de terrain
+    job: Field Engineer
     city: Takoradi, Ghana
-    description: "Ingénieur de forage offshore profond, en charge des mesures en temps réel."
-    accomplishments:
-      - Participation à plusieurs campagnes d’exploration à haut risque (>2M$/j), en environnement international exigeant.
+    description: "Deepwater drilling engineer, real-time measurements."
   - from: 2008
     to: 2009
     employer: Gendarmerie Nationale
     url: www.gendarmerie.interieur.gouv.fr
-    job: Aspirant (Officier stagiaire)
-    city: Saint-Martin, Antilles françaises
-    description: "Stage d'immersion opérationnelle au sein d'une Compagnie de gendarmerie."
-    accomplishments:
-      - Participation à des enquêtes judiciaires et interventions sur le terrain.
-      - Patrouilles, assistance à des opérations de secours en mer.
-      - Collaboration avec unités spécialisées et autorités locales.
+    job: Officer Cadet
+    city: Saint-Martin, French Caribbean
+    description: "Operational internship: investigations, patrols, sea rescue."
 
 education:
   - year: 2011--2012
-    subject: Économie de l’Énergie, Stratégie, Finance - MSc
+    subject: Energy Economics, Strategy, Finance - MSc
     institute: IFP School
     url: www.ifp-school.com
-    description: "Stratégie pétrolière, gestion de projet, finance et marchés de l’énergie."
+    description: "Oil & gas strategy, project management, energy finance."
   - year: 2008--2012
-    subject: Diplôme d'Ingénieur de l'École Polytechnique
+    subject: Engineering Degree
     institute: École Polytechnique
     url: www.polytechnique.edu/en
-    description: "Physique, mécanique, économie, stratégie industrielle, économétrie."
+    description: "Physics, mechanics, economics, econometrics."
 
 languages:
-  - skill: Français
-    description: Langue maternelle
-  - skill: Anglais
-    description: Bilingue
-  - skill: Chinois
-    description: Intermédiaire
+  - skill: French
+    description: Native
+  - skill: English
+    description: Fluent
+  - skill: Chinese
+    description: Intermediate
 
 skills:
   - skill: Python
-    description: "Expertise avancée: pandas, numpy, scikit-learn, PyTorch, DuckDB, FastAPI, sqlalchemy, Celery, Dash, Streamlit."
-  - skill: Data Engineering
-    description: "Fichiers Parquet, partitionnement Hive, S3, DuckDB, PostgreSQL, ElasticSearch."
+    description: "pandas, numpy, scikit-learn, PyTorch, FastAPI, SQLAlchemy, Celery."
+  - skill: Data
+    description: "Parquet, DuckDB, PostgreSQL, S3, ElasticSearch."
   - skill: Cloud & Ops
-    description: "Docker, GitHub Actions, Azure, GCP, déploiement d'apps data full-stack."
+    description: "Docker, GitHub Actions, Azure, GCP."
 
 interests:
-  - Photographie argentique, trail running, voyages à vélo, randonnée.
+  - Film photography, trail running, bike touring, hiking.
 
 # Settings:
 fontsize: 10pt
 font: merriweather
 ---
-

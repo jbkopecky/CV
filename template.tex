@@ -65,7 +65,7 @@ $endif$
 %    EDUCATION                                                                         {{{
 %----------------------------------------------------------------------------------------
 
-\section{Formation}
+\section{Education}
 
 \begin{tabular}{rl}	
 $for(education)$
@@ -79,7 +79,7 @@ $endfor$
 %    WORK EXPERIENCE                                                                   {{{
 %----------------------------------------------------------------------------------------
 
-\section{Expérience Professionnelle}
+\section{Experience}
 
 \begin{tabular}{r|p{14cm}}
 $for(experience)$
@@ -98,7 +98,7 @@ $endfor$
 %----------------------------------------------------------------------------------------
 
 \begin{multicols}{2}
-\section{Compétences Informatiques}
+\section{Skills}
 \begin{description}
 $for(skills)$
 \item[$skills.skill$]\textsf{$skills.description$}
@@ -110,7 +110,7 @@ $endfor$
 %    LANGUAGES                                                                         {{{
 %----------------------------------------------------------------------------------------
 
-\section{Langues}
+\section{Languages}
 \begin{tabular}{rl}
 $for(languages)$
 \textsc{$languages.skill$:} & $languages.description$\\
@@ -123,7 +123,7 @@ $endfor$
 %    INTERESTS AND ACTIVITIES                                                          {{{
 %----------------------------------------------------------------------------------------
 
-\section{Personnel}
+\section{Interests}
 $for(interests)$
 \textcolor{lightcomment}{$$~~\bullet~~$$}\textsf{$interests$}\\
 $endfor$
