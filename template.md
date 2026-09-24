@@ -8,6 +8,10 @@ $for(urls)$
 [$urls.name$](https://$urls.url$)
 $endfor$
 
+$if(summary)$
+$summary$
+
+$endif$
 Experience
 ----------
 $for(experience)$

@@ -5,74 +5,59 @@
 %    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS                                        {{{
 %----------------------------------------------------------------------------------------
 
-\documentclass[a4paper,10pt]{article}
-\usepackage[left=25mm,top=26mm,right=25mm,bottom=15mm]{geometry}
+\documentclass[a4paper,11pt]{article}
+\usepackage[left=20mm,right=20mm,top=14mm,bottom=12mm]{geometry}
 
-\usepackage{fontspec} % For loading fonts
-\defaultfontfeatures{Mapping=tex-text}
-% \setmainfont{Baskerville}
-
-\usepackage{xltxtra,url,parskip,multicol,fontawesome5}
+\usepackage{fontspec}
+\usepackage[default]{sourcesanspro}
+\usepackage{url,parskip,tabularx,enumitem,fontawesome5}
 \usepackage[usenames,dvipsnames]{xcolor}
-% \usepackage[big]{layaureo}
 \usepackage{hyperref}
 
 % Colors Definition
-\definecolor{linkcolour}{gray}{0.40}
-\definecolor{comment}{gray}{0.40}
-\definecolor{lightcomment}{gray}{0.85}
-\definecolor{accent}{rgb}{0.24,0.0,0.0}
+\definecolor{linkcolour}{gray}{0.30}
+\definecolor{comment}{gray}{0.45}
+\definecolor{rulecolour}{gray}{0.80}
+\definecolor{accent}{HTML}{379051}
+\definecolor{navy}{HTML}{14213D}
 
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
 
 \usepackage{titlesec}
-\titleformat{\section}{\color{accent}\Large\scshape\raggedright}{}{0em}{}[\color{comment}\titlerule]
-\titlespacing{\section}{0pt}{0pt}{0pt}
+\titleformat{\section}{\color{accent}\large\bfseries\scshape\raggedright}{}{0em}{}[{\color{rulecolour}\titlerule}]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+\setlist[itemize]{leftmargin=1.2em,itemsep=1pt,topsep=2pt,parsep=0pt,label={\color{comment}\textbullet}}
+\setlength{\parskip}{0pt}
+\raggedright
+
+% \entry{title}{dates}{organisation}{place}
+\newcommand{\entry}[4]{%
+  {\bfseries #1}\hfill{\color{comment}#2}\\
+  {\color{accent}#3}\ifx&#4&\else{\color{comment}~~\textbullet~~#4}\fi\par}
+\newcommand{\sep}{{\color{rulecolour}~~|~~}}
 
 \begin{document}
-\pagestyle{empty} % Removes page numbering
-% \font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+\pagestyle{empty}
 
 % }}}
 %----------------------------------------------------------------------------------------
 %    NAME AND CONTACT INFORMATION                                                      {{{
 %----------------------------------------------------------------------------------------
 
-% \addtolength{\voffset}{-1.3cm}
-\par{\centering{\Huge\textcolor{accent}{$name$}}\par} % Your name
-\par{\centering{
-$if(address)$
-$for(address)$
-\textcolor{comment}{$address.street$} 
-\textcolor{lightcomment}{$$~~\bullet~~$$}
-\textcolor{comment}{$address.code$}
-\textcolor{lightcomment}{$$~~\bullet~~$$}
-\textcolor{comment}{$address.city$}
-\\
-$endfor$
+{\centering
+{\fontsize{26}{30}\selectfont\color{navy}\bfseries $name$}\par\medskip
+{\color{comment}\small
+\faEnvelope~\href{mailto:$email$}{$email$}\sep{}
+\faLinkedin~\href{https://www.linkedin.com/in/$username$}{linkedin.com/in/$username$}\sep{}
+\faGithub~\href{https://github.com/$username$}{github.com/$username$}
+$if(phone)$\sep{}\faPhone~$phone$$endif$
+}\par
+$if(summary)$
+\medskip
+{\small $summary$}\par
 $endif$
-$if(phone)$
-\textcolor{comment}{\faPhone~~$phone$}
-\textcolor{lightcomment}{$$~~\bullet~~$$}
-$endif$
-\textcolor{comment}{\faLinkedin~\faGithub~~$username$}
-\textcolor{lightcomment}{$$~~\bullet~~$$}
-\textcolor{comment}{\faEnvelope~~\href{mailto:$email$}{$email$}}
-}\bigskip\par}
-
-% }}}
-%----------------------------------------------------------------------------------------
-%    EDUCATION                                                                         {{{
-%----------------------------------------------------------------------------------------
-
-\section{Education}
-
-\begin{tabular}{rl}	
-$for(education)$
-$education.year$ & $education.subject$\textcolor{lightcomment}{$$~~\bullet~~$$} \href{http://$education.url$}{$education.institute$}\\
-                 &\textsf{\small{$education.description$}}\\
-$endfor$
-\end{tabular}
+}
 
 % }}}
 %----------------------------------------------------------------------------------------
@@ -81,42 +66,47 @@ $endfor$
 
 \section{Experience}
 
-\begin{tabular}{r|p{14cm}}
 $for(experience)$
-$experience.to$   & $experience.job$\\
-$experience.from$ & \textsc{$experience.employer$}\textcolor{lightcomment}{$$~~\bullet~~$$}\textcolor{comment}{$experience.city$} \\
-                  & \footnotesize{\textsf{\textbf{$experience.description$}} }\\
-$for(experience.accomplishments)$ 
-\textcolor{lightcomment}{$$\bullet$$} & \footnotesize{\textsf{$experience.accomplishments$}}\\
+\entry{$experience.job$}{$experience.from$ -- $experience.to$}{$experience.employer$}{$experience.city$}
+$if(experience.description)$
+{\small $experience.description$}\par
+$endif$
+$if(experience.accomplishments)$
+\begin{itemize}\small
+$for(experience.accomplishments)$
+\item $experience.accomplishments$
 $endfor$
-\multicolumn{2}{c}{} \\
+\end{itemize}
+$endif$
+$sep$\medskip
 $endfor$
-\end{tabular}
+
 % }}}
 %----------------------------------------------------------------------------------------
-%    COMPUTER SKILLS                                                                   {{{
+%    EDUCATION                                                                         {{{
 %----------------------------------------------------------------------------------------
 
-\begin{multicols}{2}
+\section{Education}
+
+$for(education)$
+\entry{$education.subject$}{$education.year$}{$education.institute$}{}
+{\small $education.description$}\par
+$sep$\medskip
+$endfor$
+
+% }}}
+%----------------------------------------------------------------------------------------
+%    SKILLS AND LANGUAGES                                                              {{{
+%----------------------------------------------------------------------------------------
+
 \section{Skills}
-\begin{description}
+
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X@{}}
 $for(skills)$
-\item[$skills.skill$]\textsf{$skills.description$}
+\textbf{$skills.skill$} & $skills.description$\\
 $endfor$
-\end{description}
-
-% }}}
-%----------------------------------------------------------------------------------------
-%    LANGUAGES                                                                         {{{
-%----------------------------------------------------------------------------------------
-
-\section{Languages}
-\begin{tabular}{rl}
-$for(languages)$
-\textsc{$languages.skill$:} & $languages.description$\\
-$endfor$
-\end{tabular}
-\end{multicols}
+\textbf{Languages} & $for(languages)$$languages.skill$ {\color{comment}($languages.description$)}$sep$\sep{}$endfor$\\
+\end{tabularx}
 
 % }}}
 %----------------------------------------------------------------------------------------
@@ -124,9 +114,12 @@ $endfor$
 %----------------------------------------------------------------------------------------
 
 \section{Interests}
+
+\begin{itemize}
 $for(interests)$
-\textcolor{lightcomment}{$$~~\bullet~~$$}\textsf{$interests$}\\
+\item $interests$
 $endfor$
+\end{itemize}
 
 \end{document}
 % }}}

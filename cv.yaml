@@ -3,6 +3,9 @@
 name: Jean-Baptiste KOPECKY
 email: jb.kopecky@gmail.com
 username: jbkopecky
+summary: |
+  Co-founder & CTO at Hyperplan: satellite imagery, machine learning and crop analytics for agtech and commodities.\
+  Previously McKinsey, Schlumberger, École Polytechnique.
 urls:
   - url: www.linkedin.com/in/jbkopecky
     logo: "static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png"
@@ -13,11 +16,11 @@ urls:
 
 # Sections
 experience:
-  - from: 2022
+  - from: 2021
     to: Today
     employer: Hyperplan
     url: www.hyperplan.fr
-    job: Chief Technology Officer (CTO)
+    job: CTO & Co-Founder
     city: Paris, France
     description: "Tech and product lead of a SaaS agricultural intelligence platform."
     accomplishments:
@@ -25,10 +28,10 @@ experience:
       - Built a large-scale geospatial feature store (Parquet, DuckDB, PostgreSQL).
       - Hired and led a team of engineers and data scientists.
   - from: 2018
-    to: 2022
+    to: 2021
     employer: McKinsey & Company
     url: www.mckinsey.com
-    job: Consultant - Data Scientist
+    job: Consultant - Senior Data Scientist
     city: Paris, France
     description: "End-to-end data projects across healthcare, industry, energy and retail."
     accomplishments:
@@ -45,26 +48,35 @@ experience:
       - Led a strategic production optimisation project.
   - from: 2012
     to: 2014
-    employer: Schlumberger - Drilling & Measurement
+    employer: Schlumberger
     url: www.slb.com
-    job: Field Engineer
+    job: Drilling & Measurement Field Engineer
     city: Takoradi, Ghana
-    description: "Deepwater drilling engineer, real-time measurements."
+    description: "Offshore deepwater LWD / MWD field engineer on exploration wells (>2M$/day rigs)."
+    accomplishments:
+      - Ran real-time acoustic, resistivity and nuclear (neutron, gamma) logging tools.
+      - Radioactive source handling and wellsite safety in 24/7 offshore operations.
+  - from: Apr
+    to: Jul 2011
+    employer: Peking University - Guanghua School of Management
+    url: english.pku.edu.cn
+    job: Research Intern
+    city: Beijing, China
+    description: "Research internship in a Chinese-speaking team."
   - from: 2008
     to: 2009
     employer: Gendarmerie Nationale
     url: www.gendarmerie.interieur.gouv.fr
-    job: Officer Cadet
+    job: Officer Cadet - Deputy Company Commander
     city: Saint-Martin, French Caribbean
-    description: "Operational internship: investigations, patrols, sea rescue."
 
 education:
-  - year: 2011--2012
+  - year: 2011 -- 2012
     subject: Energy Economics, Strategy, Finance - MSc
     institute: IFP School
     url: www.ifp-school.com
     description: "Oil & gas strategy, project management, energy finance."
-  - year: 2008--2012
+  - year: 2008 -- 2012
     subject: Engineering Degree
     institute: École Polytechnique
     url: www.polytechnique.edu/en
@@ -79,14 +91,19 @@ languages:
     description: Intermediate
 
 skills:
-  - skill: Python
-    description: "pandas, numpy, scikit-learn, PyTorch, FastAPI, SQLAlchemy, Celery."
-  - skill: Data
-    description: "Parquet, DuckDB, PostgreSQL, S3, ElasticSearch."
-  - skill: Cloud & Ops
-    description: "Docker, GitHub Actions, Azure, GCP."
+  - skill: Leadership
+    description: "Tech & product strategy, hiring and growing engineering teams, agile delivery."
+  - skill: Architecture
+    description: "SaaS platforms, data & ML systems at scale, geospatial pipelines, cloud (Azure, GCP)."
+  - skill: AI & Data
+    description: "Machine learning, satellite imagery, time series, optimisation."
+  - skill: Business
+    description: "Strategy consulting background, client-facing delivery, C-level communication."
+  - skill: Stack
+    description: "Python, PyTorch, FastAPI, PostgreSQL, DuckDB, Docker, CI/CD."
 
 interests:
+  - "Amateur radio (F4MWA, ANFR licence 2025): Morse code at 5 watts from summits and national parks."
   - Film photography, trail running, bike touring, hiking.
 
 # Settings:
