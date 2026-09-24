@@ -1,8 +1,8 @@
 TEX = pandoc
-SRC = cv.yml
+SRC = cv.yaml
 TEXTEMPLATE = template.tex
 MKDTEMPLATE = template.md
-FLAGS = --pdf-engine=lualatex
+FLAGS = --pdf-engine=xelatex
 
 all : README.md cv.pdf
 

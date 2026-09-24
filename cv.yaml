@@ -1,0 +1,109 @@
+---
+# Personal Details
+name: Jean-Baptiste KOPECKY
+email: jb.kopecky@gmail.com
+address:
+  - street: "XX rue XX"
+    code: 75XXX
+    city: Paris, FRANCE
+phone: "+33 7 XX XX XX XX"
+username: jbkopecky
+urls:
+  - url: www.linkedin.com/in/jbkopecky
+    logo: "static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png"
+    name: linkedin
+  - url: www.github.com/jbkopecky
+    logo: "raw.githubusercontent.com/ICI3D/ICI3D.github.io/master/images/GitHub-Logos/GitHub-Mark-32px.png"
+    name: github
+
+# Sections
+experience:
+  - from: 2022
+    to: Aujourd'hui
+    employer: Hyperplan
+    url: www.hyperplan.fr
+    job: Chief Technology Officer (CTO)
+    city: Paris, France
+    description: "Responsable de la vision technique et du développement produit d'une plateforme SaaS d’intelligence agricole."
+    accomplishments:
+      - Conception et pilotage de l'architecture data, ingestion satellite, moteur d’analyse spatio-temporelle, génération de prédictions.
+      - Mise en place d’un Feature Store géospatial à grande échelle (Parquet + DuckDB + PostgreSQL).
+      - Recrutement, encadrement et montée en compétence d’une équipe d’ingénieurs et de data scientists.
+      - Culture produit et cycle agile, livraisons rapides avec une forte attention au besoin utilisateur.
+  - from: 2018
+    to: 2022
+    employer: McKinsey & Company
+    url: www.mckinsey.com
+    job: Consultant - Data Scientist
+    city: Paris, France
+    description: "Responsable de projets data de bout-en-bout dans de nombreux secteurs (santé, industrie, énergie, grande distribution...)."
+    accomplishments:
+      - Pilotage et réalisation de cas d’usage avancés en IA, optimisation, modélisation et visualisation.
+      - Déploiement d’applications analytiques robustes en production full-stack.
+      - Leadership technique, accompagnement client et mentoring d’équipes data.
+  - from: 2014
+    to: 2017
+    employer: FOROIL
+    url: www.foroil.com
+    job: Ingénieur Pétrolier - Data Scientist
+    city: Paris, France
+    description: "Analyse de données et optimisation de la production sur des champs pétroliers matures."
+    accomplishments:
+      - Responsable d’un projet stratégique d’optimisation de production
+  - from: 2012
+    to: 2014
+    employer: Schlumberger - Drilling & Measurement
+    url: www.slb.com
+    job: Ingénieur de terrain
+    city: Takoradi, Ghana
+    description: "Ingénieur de forage offshore profond, en charge des mesures en temps réel."
+    accomplishments:
+      - Participation à plusieurs campagnes d’exploration à haut risque (>2M$/j), en environnement international exigeant.
+  - from: 2008
+    to: 2009
+    employer: Gendarmerie Nationale
+    url: www.gendarmerie.interieur.gouv.fr
+    job: Aspirant (Officier stagiaire)
+    city: Saint-Martin, Antilles françaises
+    description: "Stage d'immersion opérationnelle au sein d'une Compagnie de gendarmerie."
+    accomplishments:
+      - Participation à des enquêtes judiciaires et interventions sur le terrain.
+      - Patrouilles, assistance à des opérations de secours en mer.
+      - Collaboration avec unités spécialisées et autorités locales.
+
+education:
+  - year: 2011--2012
+    subject: Économie de l’Énergie, Stratégie, Finance - MSc
+    institute: IFP School
+    url: www.ifp-school.com
+    description: "Stratégie pétrolière, gestion de projet, finance et marchés de l’énergie."
+  - year: 2008--2012
+    subject: Diplôme d'Ingénieur de l'École Polytechnique
+    institute: École Polytechnique
+    url: www.polytechnique.edu/en
+    description: "Physique, mécanique, économie, stratégie industrielle, économétrie."
+
+languages:
+  - skill: Français
+    description: Langue maternelle
+  - skill: Anglais
+    description: Bilingue
+  - skill: Chinois
+    description: Intermédiaire
+
+skills:
+  - skill: Python
+    description: "Expertise avancée: pandas, numpy, scikit-learn, PyTorch, DuckDB, FastAPI, sqlalchemy, Celery, Dash, Streamlit."
+  - skill: Data Engineering
+    description: "Fichiers Parquet, partitionnement Hive, S3, DuckDB, PostgreSQL, ElasticSearch."
+  - skill: Cloud & Ops
+    description: "Docker, GitHub Actions, Azure, GCP, déploiement d'apps data full-stack."
+
+interests:
+  - Photographie argentique, trail running, voyages à vélo, randonnée.
+
+# Settings:
+fontsize: 10pt
+font: merriweather
+---
+

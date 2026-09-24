@@ -1,82 +1,81 @@
 Jean-Baptiste KOPECKY
 ======
 
-jb.kopecky\@gmail.com
+jb.kopecky@gmail.com
 
-![linkedin](https://static.licdn.com/scds/common/u/img/webpromo/btn\_in\_20x15.png)
+![linkedin](https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png)
 [linkedin](https://www.linkedin.com/in/jbkopecky)
 ![github](https://raw.githubusercontent.com/ICI3D/ICI3D.github.io/master/images/GitHub-Logos/GitHub-Mark-32px.png)
 [github](https://www.github.com/jbkopecky)
 
 Experience
 ----------
-* 2018-Today
-| **Consultant - Data Scientist**, [McKinsey & Company](http://www.mckinsey.com) (Paris, France)
-> Consulted as Lead Data Scientist in multiple industries, on various use
-cases, from optimisation to machine learning
+* 2022-Aujourd'hui
+| **Chief Technology Officer
+(CTO)**, [Hyperplan](http://www.hyperplan.fr) (Paris, France)
+> Responsable de la vision technique et du développement produit d'une
+plateforme SaaS d'intelligence agricole.
+
+* 2018-2022
+| **Consultant - Data Scientist**, [McKinsey &
+Company](http://www.mckinsey.com) (Paris, France)
+> Responsable de projets data de bout-en-bout dans de nombreux secteurs
+(santé, industrie, énergie, grande distribution...).
 
 * 2014-2017
-| **Petroleum Engineer - Data Scientist**, [FOROIL](http://www.foroil.com) (Paris, France)
-> Provided in-depth data analysis and optimized development plans for
-Oil&Gas companies mature fields:
+| **Ingénieur Pétrolier - Data
+Scientist**, [FOROIL](http://www.foroil.com) (Paris, France)
+> Analyse de données et optimisation de la production sur des champs
+pétroliers matures.
 
 * 2012-2014
-| **Field Engineer**, [Schlumberger - Drilling & Measurement](http://www.slb.com) (Takoradi, Ghana)
-> As a deep water drilling field engineer, provided logging while drilling
-services to oil companies:
-
-* 2012-2012
-| **Business Analyst Intern**, [Schlumberger Business Consulting](http://) (Paris, France)
-> In an international environment, developed analysis to improve Oil&Gas
-business operations:
-
-* 2011-2011
-| **Research Assistant**, [Peking University, Guanghua](http://english.pku.edu.cn) (Beijing, China)
-> As a summer research intern, in a Chinese research team (language:
-Chinese):
+| **Ingénieur de terrain**, [Schlumberger - Drilling &
+Measurement](http://www.slb.com) (Takoradi, Ghana)
+> Ingénieur de forage offshore profond, en charge des mesures en temps
+réel.
 
 * 2008-2009
-| **Aspirant (Officer Candidate)**, [Gendarmerie Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint Marteen, French Caribbean)
-> Followed criminal investigations, human rescue operations, worked with
-intervention squad and politicians.
+| **Aspirant (Officier stagiaire)**, [Gendarmerie
+Nationale](http://www.gendarmerie.interieur.gouv.fr) (Saint-Martin,
+Antilles françaises)
+> Stage d'immersion opérationnelle au sein d'une Compagnie de
+gendarmerie.
 
 
 Education
 ---------
-* 2011--2012 | **Energy Economics, Strategy, Finance - MSc**,
+* 2011--2012 | **Économie de l'Énergie, Stratégie, Finance - MSc**,
   [IFP School](https://www.ifp-school.com)
-> Studied Oil&Gas business strategy, project management, finance
+> Stratégie pétrolière, gestion de projet, finance et marchés de
+l'énergie.
 
-* 2008--2012 | **Technology Innovation - Msc**,
-  [Ecole Polytechnique](https://www.polytechnique.edu/en)
-> Mechanics, Physics, Business strategy, Econometrics
+* 2008--2012 | **Diplôme d'Ingénieur de l'École Polytechnique**,
+  [École Polytechnique](https://www.polytechnique.edu/en)
+> Physique, mécanique, économie, stratégie industrielle, économétrie.
 
 
 Languages
 ------
-* **French**
-_Native_
-* **English**
-_Bilingual_
-* **Chinese**
-_Intermediate_
-* **Spanish**
-_Notions_
+* **Français**
+_Langue maternelle_
+* **Anglais**
+_Bilingue_
+* **Chinois**
+_Intermédiaire_
 
 Skills
 ------
 * **Python**
-_Django, Scrapy, Scipy, Scikit Learn, Pandas_
-* **R**
-_Notions in diverse modeling frameworks, ggplot_
-* **Divers**
-_bash, git, svn, vim_
+_Expertise avancée: pandas, numpy, scikit-learn, PyTorch, DuckDB,
+FastAPI, sqlalchemy, Celery, Dash, Streamlit._
+* **Data Engineering**
+_Fichiers Parquet, partitionnement Hive, S3, DuckDB, PostgreSQL,
+ElasticSearch._
+* **Cloud & Ops**
+_Docker, GitHub Actions, Azure, GCP, déploiement d'apps data
+full-stack._
 
 Interests
 ---------
-* Sailing Competitions, Triathlon, Bike treks in France, Israel (through
-Negev desert), China
-* Participated in two 5\raisebox{-1ex}{O}5 dinghy competition seasons with
-\texteuro20k sponsoring budget.
-
+* Photographie argentique, trail running, voyages à vélo, randonnée.
 
